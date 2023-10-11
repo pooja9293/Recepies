@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Recipe || Final</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <!-- nav  -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/ll.png" alt="simply recipes" />
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> home </a>
+        <a href="about.html" class="nav-link"> about </a>
+        <a href="tags.html" class="nav-link"> tags </a>
+        <a href="recipes.html" class="nav-link"> recipes </a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> contact </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end of nav -->
+  <main class="page">
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="./assets/recipes/cheese.jpeg" class="img recipe-hero-img" />
+        <article class="recipe-info">
+          <h2>cheese Toast</h2>
+          <p>
+            Cheese toast boasts a deliciously comforting flavor profile, characterized by the rich, creamy notes of
+            melted cheese
+            that meld with the subtle, buttery richness of the bread's golden edges. This savory delight is often
+            complemented by a
+            medley of seasonings, such as garlic powder, paprika, or herbs, which add depth and complexity to the
+            overall taste.
+            Whether enjoyed on its own or customized with additional ingredients like sliced tomatoes or crispy bacon,
+            cheese toast
+            offers a satisfying blend of cheesy, savory, and buttery elements that make it an irresistible and
+            quick-to-prepare
+            treat.
+          </p>
+          <div class="recipe-icons">
+            <article>
+              <i class="fas fa-clock"></i>
+              <h5>prep time</h5>
+              <p>15 min.</p>
+            </article>
+            <article>
+              <i class="far fa-clock"></i>
+              <h5>cook time</h5>
+              <p>15 min.</p>
+            </article>
+            <article>
+              <i class="fas fa-user-friends"></i>
+              <h5>serving</h5>
+              <p>6 servings</p>
+            </article>
+          </div>
+          <p class="recipe-tags">
+            Tags : <a href="tag-template.html">bread</a>
+            <a href="tag-template.html">breakfast</a>
+            <a href="tag-template.html">food</a>
+          </p>
+        </article>
+      </section>
+      <!-- content -->
+      <section class="recipe-content">
+        <article>
+          <h4>instructions</h4>
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 1</p>
+              <div></div>
+            </header>
+            <p>
+              Warm the pan to a medium heat.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 2</p>
+              <div></div>
+            </header>
+            <p>
+              Toss the bread and cheese and roast to a needed level of crunch.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 3</p>
+              <div></div>
+            </header>
+            <p>
+              And the cheesy toast is ready to eat.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+        </article>
+        <article class="second-column">
+          <div>
+            <h4>ingredients</h4>
+            <p class="single-ingredient">bread</p>
+            <p class="single-ingredient">cheese</p>
+            <p class="single-ingredient">1 table spoon of oil</p>
+          </div>
+          <div>
+            <h4>tools</h4>
+            <p class="single-tool">Hand Blender</p>
+            <p class="single-tool">Measuring Spoons</p>
+            <p class="single-tool">Measuring Cups</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">My Home Recepies</span> Built by
+      Pooja R Suvarna
+    </p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
